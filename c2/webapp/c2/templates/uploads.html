@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Uploads
+{% endblock %}
+
+{% block content %}
+    <div class="main">
+        <h1>Uploads</h1>
+        <ul>
+            {% for file in files %}
+                <li class="diritem">
+                     <a href="{{ (request.path + '/' if request.path != '/' else '') + file }}">
+                         {{ (request.path + '/' if request.path != '/' else '') + file }}
+                     </a>
+                </li><br>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+    <script> $(document).ready(function() { startClock(); setInterval(startClock,1000); });</script>
+    <div class="main">
+    <h1>Welcome</h1>
+    <p id="clock">Fri Feb 11 2022 21:22:49 GMT-0500 (Eastern Standard Time)</p>
+    {% if 'username' in session %}
+        <p>Hi, {{ session['username'] }}!</p>
+        <p> </p>
+        <p>{{ user_count }} users</p>
+        <p>{{ bot_count }} bots</p>
+    {% else %}
+        <p>Create an account or log in</p>
+    {% endif %}
+    </div>
+{% endblock %}

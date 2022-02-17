@@ -1,4 +1,5 @@
 ## Compose sample application
+Taken from https://github.com/docker/awesome-compose
 ### Elasticsearch, Logstash, and Kibana (ELK) in single-node
 
 Project structure:
