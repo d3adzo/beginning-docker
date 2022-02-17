@@ -1,0 +1,236 @@
+{"0": {
+    "doc": "Deployment",
+    "title": "Deployment",
+    "content": "You’re going to need two .env files, one for the server and one for the frontend. # .env (need to source this file) export PWN_URL=http(s)://&lt;url for pwnboard&gt;/generic # frontend/.env REACT_APP_GRAPHQL_URL=http://&lt;Br4vo6x host fqdn/ip&gt;:8080/query . ",
+    "url": "http://0.0.0.0:4000/cross-platform/br4vo6ix/deployment.html",
+    "relUrl": "/cross-platform/br4vo6ix/deployment.html"
+  },"1": {
+    "doc": "FAQ",
+    "title": "FAQ",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/faq.html",
+    "relUrl": "/faq.html"
+  },"2": {
+    "doc": "FAQ",
+    "title": "How can I be on the redteam?",
+    "content": "This is easily the most common question that we get. We try to keep redteam here pretty open and inclusive but we do have a few rules for our members. 1. You must have competed in at least 3 competitions as a blue teamer Your first semester (at minimum) should be spent learning about systems and getting familiar with competitions. This is critical in order to be an effective redteam member. In addition to familiarity, Blue and Red team have very complimentary skills. You will learn a lot from blueteaming. Because of this requirement, it is almost impossible to be on redteam within your first semester at school. 2. You must be willing to put in the time and effort to be on redteam Often times students are asked to work on a project in order to be on redteam. This project is a test of your work ethic and willingness to help out the team. Redteam does get to create fun tools and work on projects that are super interesting, but often times we also have to work on projects that are more of a necessity. Redteam often spends late nights working in the labs, perfecting our tooling and scripts. The time spent side-by-side in the labs builds teamwork and keeps you familiar with the projects that other members are working on. If you are not willing to put in the time, don’t try to be on redteam. 3. You must be fair to all blueteams RIT Redteam often competes against teams from several different schools as well as against their friends and peers. It is very important to maintain fairness and impartiality in these situations. That being said, we will be more aggressive against teams with higher skill levels as that is part of the competition. 4. You must be a team player Redteam is a group effort, even the most intelligent team members cannot redteam alone. If you are not willing to be a team player and be respectful to your peers (Blue, red, or white team), then we have no interest in the talents that you might bring to the table. We work closely with all the different teams in order to effectively be part of the competition. Collaboration is critical and we believe this skill will transfer well to the real world. ",
+    "url": "http://0.0.0.0:4000/faq.html#how-can-i-be-on-the-redteam",
+    "relUrl": "/faq.html#how-can-i-be-on-the-redteam"
+  },"3": {
+    "doc": "FAQ",
+    "title": "Can you waive the requirements for me?",
+    "content": "We hear this question a lot as well, the short answer: “Yes, we can”. But most likely, we WILL NOT waive the requirements for you. We hear many different reasons why people think we should waive the requirements, hopefully this will explain why these reasons are invalid: . I have extensive experience doing pentesting/OSCP/Hack the Box/etc. Red team is not pentesting, the skills do not directly transfer over to what we do, we write post exploitation tools to give the blue teams something to find. While diverse knowledge will help you in redteaming, this alone is not a reason to waive the requirements. I have lots of skills in incident response/blue teaming, but I have not competed in 3 competitions . A huge reason that we require you to be on blue teams is because of the experience and feel of competitions. Working as a team in high stress environments is a valuable skill. This is one of many reasons why blue teaming is important. RITSEC members compete in around 6 competitions per year, If you dedicate yourself to learning and participating in these competions, it is possible to start working on redteam tools before the end of your first year. I am smarter than most other freshman . Hopefully, the journey toward fulfilling the requirements will teach you how much you need to learn. It is extremely rare to be on redteam within your first year at RIT. ",
+    "url": "http://0.0.0.0:4000/faq.html#can-you-waive-the-requirements-for-me",
+    "relUrl": "/faq.html#can-you-waive-the-requirements-for-me"
+  },"4": {
+    "doc": "FAQ",
+    "title": "How is it fair that redteam is able to prebake on machines?",
+    "content": "Prebaking on machines gives blue teams something todo right at the start of the competition. The competitions are meant to simulate droping a team inside of an infected environment. As such we have to give them something to look for. ",
+    "url": "http://0.0.0.0:4000/faq.html#how-is-it-fair-that-redteam-is-able-to-prebake-on-machines",
+    "relUrl": "/faq.html#how-is-it-fair-that-redteam-is-able-to-prebake-on-machines"
+  },"5": {
+    "doc": "How it works",
+    "title": "How it works",
+    "content": "First, the DLL is injected into the lsass.exe process, and will begin hooking authentication WinAPI calls. The targeted function is MsvpPasswordValidate(), located in NtlmShared.dll. In the pursuit of not being detected, the hooked function will call the original function and allow for the normal flow of authentication. Only after seeing that authentication has failed will the hook swap out the actual NTLM hash with the backdoor hash for comparison. ",
+    "url": "http://0.0.0.0:4000/windows/nosferatu/how-it-works.html",
+    "relUrl": "/windows/nosferatu/how-it-works.html"
+  },"6": {
+    "doc": "vishnu",
+    "title": "Vishnu",
+    "content": ". DISCLAIMER: This tool is for educational, competition, and training purposes only. I am in no way responsible for any abuse of this tool . This is a golang agent that utilizes libpcap / winpcap to open a port or send a shell back as a result of a technique called Port Knocking. Github Link: vishnu . ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/#vishnu",
+    "relUrl": "/cross-platform/vishnu/#vishnu"
+  },"7": {
+    "doc": "vishnu",
+    "title": "Authors",
+    "content": ". | PabloPotat0 - PabloPotat0 | mav8557 - mav8557 | d3adzo - d3adzo | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/#authors",
+    "relUrl": "/cross-platform/vishnu/#authors"
+  },"8": {
+    "doc": "vishnu",
+    "title": "vishnu",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/",
+    "relUrl": "/cross-platform/vishnu/"
+  },"9": {
+    "doc": "DiscordGo",
+    "title": "DiscordGo",
+    "content": ". DISCLAIMER: This tool is for educational, competition, and training purposes only. I am in no way responsible for any abuse of this tool . Discord C2 for Redteam engagement . Github Link: DiscordGo . ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/",
+    "relUrl": "/cross-platform/DiscordGo/"
+  },"10": {
+    "doc": "DiscordGo",
+    "title": "Why It was made this",
+    "content": "During Blue-Red Team competition, we needed an easy and fast way to keep connected and a way for mutiple redteamer to run commands, hence DiscordGo. Since Discord is getting popular, why not use the platorm as a c2. That’s what this project is about. ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#why-it-was-made-this",
+    "relUrl": "/cross-platform/DiscordGo/#why-it-was-made-this"
+  },"11": {
+    "doc": "DiscordGo",
+    "title": "Installation",
+    "content": "To use DiscordGo, you need to create a Discord bot and a Discord server. After that, invite the bot to your server. Click here to learn how to create a server and here to create a bot. And finally, learn to invite the bot to your server with this. When creating the bot, you need it give it some permission. For testing, I gave the bot full administrative permission. But the required permission are as follow: . | Send Messages | Read Messages | Attach Files | Manage Server | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#installation",
+    "relUrl": "/cross-platform/DiscordGo/#installation"
+  },"12": {
+    "doc": "DiscordGo",
+    "title": "Usage",
+    "content": "Edit this file pkg/util/variables.go with your BotToken and ServerID. Or create the file if not there . The bot token can be found on discord developer dashboard where you created the bot. To get your server ID, go to your server setting and click on widget. On the right pane, you see the your ID. An example configuration file looks like this: . var ServerID = \"XXXXXXXXXXX\" var BotToken = \"XXXXXXXXXXX\" . After that is done, all you have to do is run make. That will create 3 binaries. - linux-agent - windows-agent.exe - macos-agent . ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#usage",
+    "relUrl": "/cross-platform/DiscordGo/#usage"
+  },"13": {
+    "doc": "DiscordGo",
+    "title": "Organizer Bot",
+    "content": "To use the organizer bot, create a .csv file with the following format(targetIP, teamNum, hostname): . | Note target IP shouldn’t have the . between them. | . 192168185200,team01,hostname1 192168185201,team02,hostname2 . To start the organizer bot: go run cmd/organizer/main.go --target &lt;csv_filename&gt;.csv . Run clean in any channel to organize bots into their respective categories. ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#organizer-bot",
+    "relUrl": "/cross-platform/DiscordGo/#organizer-bot"
+  },"14": {
+    "doc": "DiscordGo",
+    "title": "Feature",
+    "content": ". | Cross-platform | Organizer bot to put targets in the right category | . Logo by @BradHacker(https://github.com/BradHacker) . ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#feature",
+    "relUrl": "/cross-platform/DiscordGo/#feature"
+  },"15": {
+    "doc": "DiscordGo",
+    "title": "Authors",
+    "content": ". | PabloPotat0 - PabloPotat0 | d3adzo - d3adzo | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/DiscordGo/#authors",
+    "relUrl": "/cross-platform/DiscordGo/#authors"
+  },"16": {
+    "doc": "Bruhdotzip",
+    "title": "bruhdotzip",
+    "content": ". DISCLAIMER: This tool is for educational, competition, and training purposes only. I am in no way responsible for any abuse of this tool . Tool created for Red Team to test default credentials on SSH and WinRM and then execute scripts with those credentials before the password can be changed by Blue Team. Github Link: bruhdotzip . ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/#bruhdotzip",
+    "relUrl": "/linux/bruhdotzip/#bruhdotzip"
+  },"17": {
+    "doc": "Bruhdotzip",
+    "title": "Authors",
+    "content": ". | Eshan - moheshan | Michael Moore - StaticV0yd | . ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/#authors",
+    "relUrl": "/linux/bruhdotzip/#authors"
+  },"18": {
+    "doc": "Bruhdotzip",
+    "title": "Bruhdotzip",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/",
+    "relUrl": "/linux/bruhdotzip/"
+  },"19": {
+    "doc": "Cross Platform",
+    "title": "Cross Platform",
+    "content": "This is our collection of RITSEC Red Team Cross Platform (multiple OS’s) tools . | Br4vo6ix - This is a golang C2 + Implant that communicates via Protocol Buffers | DiscordGo - Golang command and control server using discord. | vishnu - Golang implant that opens a port or connects back as a result of Port Knocking | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/",
+    "relUrl": "/cross-platform/"
+  },"20": {
+    "doc": "Br4vo6ix",
+    "title": "Br4vo6ix",
+    "content": ". DISCLAIMER: This tool is for educational, competition, and training purposes only. I am in no way responsible for any abuse of this tool . This is a golang C2 + Implant that communicates via Protocol Buffers (aka. protobufs). Github Link: Br4vo6ix . ",
+    "url": "http://0.0.0.0:4000/cross-platform/br4vo6ix/",
+    "relUrl": "/cross-platform/br4vo6ix/"
+  },"21": {
+    "doc": "Br4vo6ix",
+    "title": "Authors",
+    "content": ". | Brad “The Cybersecurity Chad” - BradHacker | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/br4vo6ix/#authors",
+    "relUrl": "/cross-platform/br4vo6ix/#authors"
+  },"22": {
+    "doc": "Linux",
+    "title": "Linux",
+    "content": "This is our collection of RITSEC Red Team Linux specific tools . | Bruhdotzip - A tool that helps redteam test for default credentials on SSH and WinRM. | . ",
+    "url": "http://0.0.0.0:4000/linux/",
+    "relUrl": "/linux/"
+  },"23": {
+    "doc": "Networking",
+    "title": "Networking",
+    "content": "This is our collection of RITSEC Red Team Networking specific tools . ",
+    "url": "http://0.0.0.0:4000/networking/",
+    "relUrl": "/networking/"
+  },"24": {
+    "doc": "Nosferatu",
+    "title": "Nosferatu",
+    "content": "Windows NTLM Authentication Backdoor that hooks into lsass.exe. Backdoor password is nosferatu. ",
+    "url": "http://0.0.0.0:4000/windows/nosferatu/",
+    "relUrl": "/windows/nosferatu/"
+  },"25": {
+    "doc": "Nosferatu",
+    "title": "Authors",
+    "content": ". | kindtime - Kindtime | . ",
+    "url": "http://0.0.0.0:4000/windows/nosferatu/#authors",
+    "relUrl": "/windows/nosferatu/#authors"
+  },"26": {
+    "doc": "Windows",
+    "title": "Windows",
+    "content": "This is our collection of RITSEC Red Team Windows specific tools. | Nosferatu - Windows NTLM Authentication Backdoor | . ",
+    "url": "http://0.0.0.0:4000/windows/",
+    "relUrl": "/windows/"
+  },"27": {
+    "doc": "Home",
+    "title": "RITSEC Red Team",
+    "content": ". | Home | FAQ | Windows | Linux | Networking | Cross Platform | . RITSEC Redteam is a group of students and alumni write and use custom tooling to attack competition infrastructure. This provides a challenging learning environment for blue teams. Our Public Repo can be found here. ALL PROJECTS ARE PROVIDED AS IS WITH NO WARRANTY. ",
+    "url": "http://0.0.0.0:4000/#ritsec-red-team",
+    "relUrl": "/#ritsec-red-team"
+  },"28": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/",
+    "relUrl": "/"
+  },"29": {
+    "doc": "Installation",
+    "title": "Use",
+    "content": "go run main.go [options] OR go build main.go then ./main [options] . OPTIONS: -b string Path to file containing list of boxes. (shorthand) -boxPath string Path to file containing list of boxes. -o string Output file name for successful responses. (shorthand) (default \"output.txt\") -output string Output file name for successful responses. (default \"output.txt\") -p string Password to attempt on users and boxes. (shorthand) -password string Password to attempt on users and boxes. -s string Path to a script that should be executed on successful SSH/WinRM logon. If this option is not set, a script will not be executed. (shorthand) -script string Path to a script that should be executed on successful SSH/WinRM logon. If this option is not set, a script will not be executed. -u string Path to file containing list of users. (shorthand) -userPath string Path to file containing list of users. ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/installation.html#use",
+    "relUrl": "/linux/bruhdotzip/installation.html#use"
+  },"30": {
+    "doc": "Installation",
+    "title": "Example command:",
+    "content": "go run main.go -o output.txt -p password123 -u users.txt -b boxes.txt -s script.ps1 . ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/installation.html#example-command",
+    "relUrl": "/linux/bruhdotzip/installation.html#example-command"
+  },"31": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/linux/bruhdotzip/installation.html",
+    "relUrl": "/linux/bruhdotzip/installation.html"
+  },"32": {
+    "doc": "Installation",
+    "title": "Linux",
+    "content": "There is one static value that is needed in order for this to work properly on Linux. It is listed below: . | The string value being returned, found in spec/spec_linux.go, in the GetAdapter() function. It is set to return \"ens160\" by default. Modify this value as you see fit. | . To compile, you need libpcap. On linux, you can install by running sudo apt install libpcap-dev. For the port opening, make sure you have inetd installed. If you are not sure, run apt install openbsd-inetd. Then you can use make agent-linux to generate the binary. ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/installation.html#linux",
+    "relUrl": "/cross-platform/vishnu/installation.html#linux"
+  },"33": {
+    "doc": "Installation",
+    "title": "Windows",
+    "content": "In order for the binary to work correctly on Windows, npcap / winpcap needs to be installed. You can find it here: https://nmap.org/npcap/ . Once this is done, run make agent-windows to create the executable. ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/installation.html#windows",
+    "relUrl": "/cross-platform/vishnu/installation.html#windows"
+  },"34": {
+    "doc": "Installation",
+    "title": "Customizations",
+    "content": "There are few other modifications that can be made in the targetInfo struct. Go to the sInit function in main.go and modify the values as you see fit listed below: . | secretPorts : this int array holds the ports that will be used for knocking | connectBack : boolean value for linux for a bind or connectback shell | connectBackPort : if connectback is being used, this string value is the port that will be utilized. | . ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/installation.html#customizations",
+    "relUrl": "/cross-platform/vishnu/installation.html#customizations"
+  },"35": {
+    "doc": "Installation",
+    "title": "Connectback Shell Info",
+    "content": "You can optionally have the backdoor operate in connectback mode - where after successfully knocking a shell is sent back to the knocking IP on a predetermined port. Be careful doing this behind NAT as while knocking will work, the shell won’t get back to you. You’ll need to do port forwarding or listen for the shell on a public IP. For use on Windows, the connectback method is used. ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/installation.html#connectback-shell-info",
+    "relUrl": "/cross-platform/vishnu/installation.html#connectback-shell-info"
+  },"36": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": " ",
+    "url": "http://0.0.0.0:4000/cross-platform/vishnu/installation.html",
+    "relUrl": "/cross-platform/vishnu/installation.html"
+  },"37": {
+    "doc": "Limitations",
+    "title": "Limitations",
+    "content": "In an Active Directory environment, authentication via RDP, runas, or the lock screen does not work with the nosferatu password. Authentication using SMB, WinRM, and WMI is still possible. In a non-AD environment, authentication works for all aspects. ",
+    "url": "http://0.0.0.0:4000/windows/nosferatu/limitations.html",
+    "relUrl": "/windows/nosferatu/limitations.html"
+  },"38": {
+    "doc": "Usage",
+    "title": "Usage",
+    "content": "Nosferatu must be compiled as a 64 bit DLL. It must be injected using the a DLL Injector with SeDebugPrivilege. You can see it loaded using Procexp: . ",
+    "url": "http://0.0.0.0:4000/windows/nosferatu/usage.html",
+    "relUrl": "/windows/nosferatu/usage.html"
+  }
+}
