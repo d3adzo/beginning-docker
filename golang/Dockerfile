@@ -10,3 +10,4 @@ COPY ./main.go .
 
 # what program will be run when docker container is started. Can take in arguments 
 ENTRYPOINT [ "go", "run", "main.go"]
+
